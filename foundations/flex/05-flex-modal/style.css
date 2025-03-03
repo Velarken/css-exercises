@@ -16,10 +16,41 @@ body {
 }
 
 .modal {
+  display:flex;
+  flex-direction: row;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.header {
+  display:flex;
+  font-size: 20px;
+  font-weight: 850;
+  margin-bottom:10px;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.left {
+  display:flex;
+  justify-content: flex-start;
+  flex-shrink:0;
+  margin:15px;
+}
+
+.right {
+  display:inline-block;
+  justify-content: flex-end;
+  align-items: center;
+  margin:12px;
+}
+
+.buttons {
+  margin-top:20;
 }
 
 .icon {
@@ -48,6 +79,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left:60px;
 }
 
 button {
